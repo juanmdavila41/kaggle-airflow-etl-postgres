@@ -1,0 +1,118 @@
+[2024-05-23T01:01:14.419+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-23T01:01:14.455+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: kaggle_dataset.transformacion manual__2024-05-22T22:09:25.534916+00:00 [queued]>
+[2024-05-23T01:01:14.469+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: kaggle_dataset.transformacion manual__2024-05-22T22:09:25.534916+00:00 [queued]>
+[2024-05-23T01:01:14.470+0000] {taskinstance.py:2306} INFO - Starting attempt 12 of 14
+[2024-05-23T01:01:14.492+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): transformacion> on 2024-05-22 22:09:25.534916+00:00
+[2024-05-23T01:01:14.501+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=3431) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-05-23T01:01:14.503+0000] {standard_task_runner.py:63} INFO - Started process 3455 to run task
+[2024-05-23T01:01:14.503+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'kaggle_dataset', 'transformacion', 'manual__2024-05-22T22:09:25.534916+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/kaggle_dataset.py', '--cfg-path', '/tmp/tmp1vpo3bs7']
+[2024-05-23T01:01:14.507+0000] {standard_task_runner.py:91} INFO - Job 30: Subtask transformacion
+[2024-05-23T01:01:14.575+0000] {task_command.py:426} INFO - Running <TaskInstance: kaggle_dataset.transformacion manual__2024-05-22T22:09:25.534916+00:00 [running]> on host 3943db1ddae8
+[2024-05-23T01:01:14.691+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='kaggle_dataset' AIRFLOW_CTX_TASK_ID='transformacion' AIRFLOW_CTX_EXECUTION_DATE='2024-05-22T22:09:25.534916+00:00' AIRFLOW_CTX_TRY_NUMBER='12' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-22T22:09:25.534916+00:00'
+[2024-05-23T01:01:14.693+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-23T01:01:14.851+0000] {logging_mixin.py:188} INFO -        country_id  ... gross_domestic_product_(gdp)
+0               4  ...                 1.731436e+09
+1               4  ...                 1.812838e+09
+2               4  ...                 1.647900e+09
+3               4  ...                 1.702716e+09
+4               4  ...                 2.061729e+09
+...           ...  ...                          ...
+10507         894  ...                 2.586816e+10
+10508         894  ...                 2.631198e+10
+10509         894  ...                 2.331036e+10
+10510         894  ...                 1.811064e+10
+10511         894  ...                 2.131337e+10
+
+[10512 rows x 26 columns]
+[2024-05-23T01:01:14.853+0000] {logging_mixin.py:188} INFO - Index(['country_id', 'country', 'year', 'ama_exchange_rate',
+       'imf_based_exchange_rate', 'population', 'currency', 'per_capita_gni',
+       'agriculture,hunting,forestry,fishing(isic_a_b)',
+       'changes_in_inventories', 'construction_(isic_f)',
+       'exports_of_goods_and_services', 'final_consumption_expenditure',
+       'general_government_final_consumption_expenditure',
+       'gross_capital_formation', 'gross_fixed_capital_formation',
+       'household_consumption_expenditure', 'imports_of_goods_and_services',
+       'manufacturing_(isic_d)', 'mining,_manufacturing,_utilities(isic_c_e)',
+       'other_activities_(isic_j_p)', 'total_value_added',
+       'transport,storage_and_communication(isic_i)',
+       'wholesale,retail_trade,restaurants_and_hotels(isic_g_h)',
+       'gross_national_income(gni)_in_usd', 'gross_domestic_product_(gdp)'],
+      dtype='object')
+[2024-05-23T01:01:14.856+0000] {logging_mixin.py:188} INFO - country_id                                                   int64
+country                                                     object
+year                                                         int64
+ama_exchange_rate                                          float64
+imf_based_exchange_rate                                    float64
+population                                                   int64
+currency                                                    object
+per_capita_gni                                               int64
+agriculture,hunting,forestry,fishing(isic_a_b)             float64
+changes_in_inventories                                     float64
+construction_(isic_f)                                      float64
+exports_of_goods_and_services                              float64
+final_consumption_expenditure                              float64
+general_government_final_consumption_expenditure           float64
+gross_capital_formation                                    float64
+gross_fixed_capital_formation                              float64
+household_consumption_expenditure                          float64
+imports_of_goods_and_services                              float64
+manufacturing_(isic_d)                                     float64
+mining,_manufacturing,_utilities(isic_c_e)                 float64
+other_activities_(isic_j_p)                                float64
+total_value_added                                          float64
+transport,storage_and_communication(isic_i)                float64
+wholesale,retail_trade,restaurants_and_hotels(isic_g_h)    float64
+gross_national_income(gni)_in_usd                          float64
+gross_domestic_product_(gdp)                               float64
+dtype: object
+[2024-05-23T01:01:20.245+0000] {base.py:84} INFO - Using connection ID 'postgrest_projects' for task execution.
+[2024-05-23T01:01:20.248+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-23T01:01:20.249+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/kaggle_dataset.py", line 65, in transform_task
+    load_df_to_sql(df, 'tmp_global_economic_ind', sql_connid_postgrest)
+  File "/opt/airflow/dags/utils.py", line 33, in load_df_to_sql
+    sql_conn.run('TRUNCATE TABLE {}'.format(sql_table), autocommit=True)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py", line 411, in run
+    with closing(self.get_conn()) as conn:
+                 ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/postgres/hooks/postgres.py", line 161, in get_conn
+    self.conn = psycopg2.connect(**conn_args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+[2024-05-23T01:01:20.275+0000] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=kaggle_dataset, task_id=transformacion, run_id=manual__2024-05-22T22:09:25.534916+00:00, execution_date=20240522T220925, start_date=20240523T010114, end_date=20240523T010120
+[2024-05-23T01:01:20.309+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 30 for task transformacion (connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+; 3455)
+[2024-05-23T01:01:20.328+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-05-23T01:01:20.343+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/models/baseoperator.py:1296: AirflowProviderDeprecationWarning: Call to deprecated class PostgresOperator. (Please use `***.providers.common.sql.operators.sql.SQLExecuteQueryOperator`.Also, you can provide `hook_params={'schema': <database>}`.)
+  result = cls.__new__(cls)
+
+[2024-05-23T01:01:20.371+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-23T01:01:20.375+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

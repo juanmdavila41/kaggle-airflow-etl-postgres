@@ -1,0 +1,34 @@
+[2024-05-22T01:35:36.614+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-22T01:35:36.685+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: kaggle_dataset.transformacion manual__2024-05-22T01:16:10.864259+00:00 [queued]>
+[2024-05-22T01:35:36.717+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: kaggle_dataset.transformacion manual__2024-05-22T01:16:10.864259+00:00 [queued]>
+[2024-05-22T01:35:36.719+0000] {taskinstance.py:2306} INFO - Starting attempt 7 of 11
+[2024-05-22T01:35:37.079+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): transformacion> on 2024-05-22 01:16:10.864259+00:00
+[2024-05-22T01:35:37.096+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=1221) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-05-22T01:35:37.100+0000] {standard_task_runner.py:63} INFO - Started process 1252 to run task
+[2024-05-22T01:35:37.100+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'kaggle_dataset', 'transformacion', 'manual__2024-05-22T01:16:10.864259+00:00', '--job-id', '24', '--raw', '--subdir', 'DAGS_FOLDER/kaggle_dataset.py', '--cfg-path', '/tmp/tmp54tklfw5']
+[2024-05-22T01:35:37.106+0000] {standard_task_runner.py:91} INFO - Job 24: Subtask transformacion
+[2024-05-22T01:35:37.270+0000] {task_command.py:426} INFO - Running <TaskInstance: kaggle_dataset.transformacion manual__2024-05-22T01:16:10.864259+00:00 [running]> on host b17c52120858
+[2024-05-22T01:35:37.526+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='kaggle_dataset' AIRFLOW_CTX_TASK_ID='transformacion' AIRFLOW_CTX_EXECUTION_DATE='2024-05-22T01:16:10.864259+00:00' AIRFLOW_CTX_TRY_NUMBER='7' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-22T01:16:10.864259+00:00'
+[2024-05-22T01:35:37.531+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-22T01:35:37.934+0000] {logging_mixin.py:188} INFO -         CountryID   ...  Gross Domestic Product (GDP) 
+0                4  ...                   1.731436e+09
+1                4  ...                   1.812838e+09
+2                4  ...                   1.647900e+09
+3                4  ...                   1.702716e+09
+4                4  ...                   2.061729e+09
+...            ...  ...                            ...
+10507          894  ...                   2.586816e+10
+10508          894  ...                   2.631198e+10
+10509          894  ...                   2.331036e+10
+10510          894  ...                   1.811064e+10
+10511          894  ...                   2.131337e+10
+
+[10512 rows x 26 columns]
+[2024-05-22T01:35:37.935+0000] {python.py:237} INFO - Done. Returned value was: None
+[2024-05-22T01:35:37.937+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-22T01:35:37.965+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=kaggle_dataset, task_id=transformacion, run_id=manual__2024-05-22T01:16:10.864259+00:00, execution_date=20240522T011610, start_date=20240522T013536, end_date=20240522T013537
+[2024-05-22T01:35:38.043+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-05-22T01:35:38.104+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-05-22T01:35:38.109+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

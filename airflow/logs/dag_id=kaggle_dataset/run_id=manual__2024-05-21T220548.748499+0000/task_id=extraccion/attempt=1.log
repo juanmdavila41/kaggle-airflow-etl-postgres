@@ -1,0 +1,66 @@
+[2024-05-21T22:05:58.023+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-21T22:05:58.425+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: kaggle_dataset.extraccion manual__2024-05-21T22:05:48.748499+00:00 [queued]>
+[2024-05-21T22:05:58.451+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: kaggle_dataset.extraccion manual__2024-05-21T22:05:48.748499+00:00 [queued]>
+[2024-05-21T22:05:58.453+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 5
+[2024-05-21T22:05:58.492+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): extraccion> on 2024-05-21 22:05:48.748499+00:00
+[2024-05-21T22:05:58.509+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'kaggle_dataset', 'extraccion', 'manual__2024-05-21T22:05:48.748499+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/kaggle_dataset.py', '--cfg-path', '/tmp/tmp56mm9il9']
+[2024-05-21T22:05:58.510+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=96) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-05-21T22:05:58.514+0000] {standard_task_runner.py:91} INFO - Job 13: Subtask extraccion
+[2024-05-21T22:05:58.515+0000] {standard_task_runner.py:63} INFO - Started process 120 to run task
+[2024-05-21T22:05:58.641+0000] {task_command.py:426} INFO - Running <TaskInstance: kaggle_dataset.extraccion manual__2024-05-21T22:05:48.748499+00:00 [running]> on host 36dd2f748723
+[2024-05-21T22:05:58.894+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='kaggle_dataset' AIRFLOW_CTX_TASK_ID='extraccion' AIRFLOW_CTX_EXECUTION_DATE='2024-05-21T22:05:48.748499+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-21T22:05:48.748499+00:00'
+[2024-05-21T22:05:58.898+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-21T22:05:59.023+0000] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/***/.kaggle/kaggle.json'
+[2024-05-21T22:06:01.913+0000] {logging_mixin.py:188} INFO - Next Page Token = CfDJ8B5GsGLMFaFLm6_4BsA80RQCKuqOW7nmcMxK18K_jJCRNFOV25u-CxV9t2SpiKHH6pEXiqn0f4foipx41Iv-M7s
+[2024-05-21T22:06:01.951+0000] {logging_mixin.py:188} INFO -    id  ref                                                     title                                           subtitle                                                                                                                                                                            author              
+[2024-05-21T22:06:01.953+0000] {logging_mixin.py:188} INFO - -----  ------------------------------------------------------  ----------------------------------------------  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  ------------------  
+[2024-05-21T22:06:01.955+0000] {logging_mixin.py:188} INFO - 39106  metaresearch/llama-3                                    llama-3                                         Llama 3 is a collection of pretrained and fine-tuned generative text models ranging in scale from 8 billion to 70 billion parameters                                                Meta                
+[2024-05-21T22:06:01.956+0000] {logging_mixin.py:188} INFO - 39234  sunghoshim/homecredit-models-public                     HomeCredit: models (public)                                                                                                                                                                                                         Sungho Shim         
+[2024-05-21T22:06:01.958+0000] {logging_mixin.py:188} INFO - 23393  google/paligemma                                        PaLIGemma                                       PaliGemma is a versatile and lightweight vision-language model (VLM) inspired by PaLI-3 and based on open components such as the SigLIP vision model and the Gemma language model.  Google              
+[2024-05-21T22:06:01.961+0000] {logging_mixin.py:188} INFO -  3301  google/gemma                                            Gemma                                           Gemma is a family of lightweight, open models built from the research and technology that Google used to create the Gemini models.                                                  Google              
+[2024-05-21T22:06:01.963+0000] {logging_mixin.py:188} INFO - 22086  oldufo/aliked                                           Aliked                                          ALIKED: A Lighter Keypoint and Descriptor Extraction Network via Deformable Transformation                                                                                          old-ufo             
+[2024-05-21T22:06:01.964+0000] {logging_mixin.py:188} INFO -  3533  keras/gemma                                             Gemma                                           Keras implementation of the Gemma model. This Keras 3 implementation will run on JAX, TensorFlow and PyTorch.                                                                       Keras               
+[2024-05-21T22:06:01.966+0000] {logging_mixin.py:188} INFO - 21716  oldufo/lightglue                                        LightGlue                                       LightGlue: Local Feature Matching at Light Speed (ICCV 2023)                                                                                                                        old-ufo             
+[2024-05-21T22:06:01.968+0000] {logging_mixin.py:188} INFO - 16822  google/codegemma                                        codegemma                                       Open Code Models Based on Gemma                                                                                                                                                     Google              
+[2024-05-21T22:06:01.971+0000] {logging_mixin.py:188} INFO -  1902  mistral-ai/mistral                                      mistral                                         Mistral AI team is proud to release Mistral, the most powerful language model for its size to date.                                                                                 Mistral AI          
+[2024-05-21T22:06:01.973+0000] {logging_mixin.py:188} INFO -   986  metaresearch/dinov2                                     Dino v2                                         Vision Transformer (ViT) model trained using the DINOv2 method.                                                                                                                     Meta                
+[2024-05-21T22:06:01.974+0000] {logging_mixin.py:188} INFO -  2797  keras/efficientnetv2                                    EfficientNetV2                                  Instantiates the EfficientNetV2 architecture.                                                                                                                                       Keras               
+[2024-05-21T22:06:01.976+0000] {logging_mixin.py:188} INFO -  3108  mistral-ai/mixtral                                      mixtral                                         Mixtral is a sparse mixture-of-experts network from Mistral AI                                                                                                                      Mistral AI          
+[2024-05-21T22:06:01.978+0000] {logging_mixin.py:188} INFO -   735  metaresearch/llama-2                                    llama-2                                         Llama 2 is a collection of pretrained and fine-tuned generative text models ranging in scale from 7 billion to 70 billion parameters                                                Meta                
+[2024-05-21T22:06:01.981+0000] {logging_mixin.py:188} INFO - 51953  google/paligemma-ft                                     PaliGemma-ft                                    PaliGemma fine-tuned on a wide range of research datasets.                                                                                                                          Google              
+[2024-05-21T22:06:01.983+0000] {logging_mixin.py:188} INFO - 46425  rashmibanthia/pii-data-detection-deberta-v3-large       PII Data Detection Deberta V3 Large             Part of 4th rank solution                                                                                                                                                           RB                  
+[2024-05-21T22:06:01.984+0000] {logging_mixin.py:188} INFO -   312  timm/tf-efficientnet                                    EfficientNet                                    EfficientNet is a convolutional neural network architecture and scaling method that uniformly scales all dimensions of depth/width/resolution using a compound coefficient.         TIMM                
+[2024-05-21T22:06:01.985+0000] {logging_mixin.py:188} INFO - 37433  alfathterry/distilbert-amazon-review-positive-negative  DistilBERT AMAZON Review (Positive - Negative)  your marketplace sentiment analyzer                                                                                                                                                 Al Fath Terry       
+[2024-05-21T22:06:01.986+0000] {logging_mixin.py:188} INFO -   322  jiamingsuen/loftr                                       LoFTR                                           LoFTR: Detector-Free Local Feature Matching with Transformers                                                                                                                       Jiaming Sun         
+[2024-05-21T22:06:01.987+0000] {logging_mixin.py:188} INFO -  2820  keras/deberta_v3                                        DeBERTaV3                                       DeBERTa encoder network.                                                                                                                                                            Keras               
+[2024-05-21T22:06:01.989+0000] {logging_mixin.py:188} INFO -   323  jatentaki/disk                                          DISK                                            DISK: Learning local features with policy gradient                                                                                                                                  Michał Tyszkiewicz  
+[2024-05-21T22:06:01.990+0000] {logging_mixin.py:188} INFO - Dataset URL: https://www.kaggle.com/datasets/prasad22/global-economy-indicators
+[2024-05-21T22:06:03.734+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-21T22:06:03.736+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/kaggle_dataset.py", line 26, in extract_task
+    print(df)
+          ^^
+NameError: name 'df' is not defined
+[2024-05-21T22:06:03.771+0000] {taskinstance.py:1206} INFO - Marking task as UP_FOR_RETRY. dag_id=kaggle_dataset, task_id=extraccion, run_id=manual__2024-05-21T22:05:48.748499+00:00, execution_date=20240521T220548, start_date=20240521T220558, end_date=20240521T220603
+[2024-05-21T22:06:03.815+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 13 for task extraccion (name 'df' is not defined; 120)
+[2024-05-21T22:06:03.865+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-05-21T22:06:03.937+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-21T22:06:03.943+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

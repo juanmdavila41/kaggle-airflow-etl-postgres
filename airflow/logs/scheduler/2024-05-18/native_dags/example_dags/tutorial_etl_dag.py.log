@@ -1,0 +1,11 @@
+[2024-05-18 22:35:16,435] {processor.py:153} INFO - Started process (PID=84) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-05-18 22:35:16,439] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py for tasks to queue
+[2024-05-18 22:35:16,454] {logging_mixin.py:115} INFO - [2024-05-18 22:35:16,453] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-05-18 22:35:16,533] {processor.py:651} INFO - DAG(s) dict_keys(['tutorial_etl_dag']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py
+[2024-05-18 22:35:20,600] {logging_mixin.py:115} INFO - [2024-05-18 22:35:20,600] {manager.py:508} INFO - Created Permission View: can delete on DAG:tutorial_etl_dag
+[2024-05-18 22:35:20,830] {logging_mixin.py:115} INFO - [2024-05-18 22:35:20,825] {manager.py:508} INFO - Created Permission View: can read on DAG:tutorial_etl_dag
+[2024-05-18 22:35:21,067] {logging_mixin.py:115} INFO - [2024-05-18 22:35:21,066] {manager.py:508} INFO - Created Permission View: can edit on DAG:tutorial_etl_dag
+[2024-05-18 22:35:21,083] {logging_mixin.py:115} INFO - [2024-05-18 22:35:21,079] {dag.py:2371} INFO - Sync 1 DAGs
+[2024-05-18 22:35:21,155] {logging_mixin.py:115} INFO - [2024-05-18 22:35:21,153] {dag.py:2390} INFO - Creating ORM DAG for tutorial_etl_dag
+[2024-05-18 22:35:21,327] {logging_mixin.py:115} INFO - [2024-05-18 22:35:21,327] {dag.py:2919} INFO - Setting next_dagrun for tutorial_etl_dag to None, run_after=None
+[2024-05-18 22:35:21,561] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/tutorial_etl_dag.py took 5.158 seconds
