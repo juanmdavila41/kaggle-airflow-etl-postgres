@@ -19,14 +19,14 @@ The PostgreSQL database consists of the following components:
 - Final Table: Stores the historical real data.
 - Stored Procedure: A stored procedure, created using the sp_creator.py script, facilitates merging of data between the temporary and final tables. This merge process ensures updating, ignoring, or loading new information efficiently.
 
-##Usage
+## Usage
 1. Clone the repository.
 2. Install Docker if not already installed.
 3. Navigate to the project directory.
 4. Build and run Docker containers using docker-compose up.
 5. Access Airflow UI to monitor and trigger the DAG for ETL execution.
 
-##Dependencies
+## Dependencies
 Ensure the following dependencies are installed:
 
 - Docker

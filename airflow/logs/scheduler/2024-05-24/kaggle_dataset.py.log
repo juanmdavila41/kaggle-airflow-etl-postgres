@@ -246,3 +246,110 @@
 [2024-05-24T00:16:28.506+0000] {logging_mixin.py:188} INFO - [2024-05-24T00:16:28.504+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-05-24T00:16:28.533+0000] {logging_mixin.py:188} INFO - [2024-05-24T00:16:28.532+0000] {dag.py:3954} INFO - Setting next_dagrun for kaggle_dataset to None, run_after=None
 [2024-05-24T00:16:28.586+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kaggle_dataset.py took 2.073 seconds
+[2024-05-24T00:16:58.785+0000] {processor.py:161} INFO - Started process (PID=2457) to work on /opt/airflow/dags/kaggle_dataset.py
+[2024-05-24T00:16:58.788+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kaggle_dataset.py for tasks to queue
+[2024-05-24T00:16:58.792+0000] {logging_mixin.py:188} INFO - [2024-05-24T00:16:58.791+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kaggle_dataset.py
+[2024-05-24T00:17:00.007+0000] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/airflow/.kaggle/kaggle.json'
+[2024-05-24T00:17:00.484+0000] {processor.py:840} INFO - DAG(s) 'kaggle_dataset' retrieved from /opt/airflow/dags/kaggle_dataset.py
+[2024-05-24T00:17:00.541+0000] {logging_mixin.py:188} INFO - [2024-05-24T00:17:00.540+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-24T00:17:00.578+0000] {logging_mixin.py:188} INFO - [2024-05-24T00:17:00.578+0000] {dag.py:3954} INFO - Setting next_dagrun for kaggle_dataset to None, run_after=None
+[2024-05-24T00:17:00.643+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kaggle_dataset.py took 1.873 seconds
+[2024-05-24T00:17:31.153+0000] {processor.py:161} INFO - Started process (PID=2489) to work on /opt/airflow/dags/kaggle_dataset.py
+[2024-05-24T00:17:31.155+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kaggle_dataset.py for tasks to queue
+[2024-05-24T00:17:31.160+0000] {logging_mixin.py:188} INFO - [2024-05-24T00:17:31.159+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kaggle_dataset.py
+[2024-05-24T00:17:32.545+0000] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/airflow/.kaggle/kaggle.json'
+[2024-05-24T00:17:33.011+0000] {processor.py:840} INFO - DAG(s) 'kaggle_dataset' retrieved from /opt/airflow/dags/kaggle_dataset.py
+[2024-05-24T00:17:33.065+0000] {logging_mixin.py:188} INFO - [2024-05-24T00:17:33.064+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-24T00:17:33.092+0000] {logging_mixin.py:188} INFO - [2024-05-24T00:17:33.092+0000] {dag.py:3954} INFO - Setting next_dagrun for kaggle_dataset to None, run_after=None
+[2024-05-24T00:17:33.148+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kaggle_dataset.py took 2.009 seconds
+[2024-05-24T00:18:03.725+0000] {processor.py:161} INFO - Started process (PID=2521) to work on /opt/airflow/dags/kaggle_dataset.py
+[2024-05-24T00:18:03.728+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kaggle_dataset.py for tasks to queue
+[2024-05-24T00:18:03.735+0000] {logging_mixin.py:188} INFO - [2024-05-24T00:18:03.734+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kaggle_dataset.py
+[2024-05-24T00:18:05.248+0000] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/airflow/.kaggle/kaggle.json'
+[2024-05-24T00:18:05.818+0000] {processor.py:840} INFO - DAG(s) 'kaggle_dataset' retrieved from /opt/airflow/dags/kaggle_dataset.py
+[2024-05-24T00:18:05.887+0000] {logging_mixin.py:188} INFO - [2024-05-24T00:18:05.885+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-24T00:18:05.918+0000] {logging_mixin.py:188} INFO - [2024-05-24T00:18:05.917+0000] {dag.py:3954} INFO - Setting next_dagrun for kaggle_dataset to None, run_after=None
+[2024-05-24T00:18:05.972+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kaggle_dataset.py took 2.269 seconds
+[2024-05-24T00:18:36.644+0000] {processor.py:161} INFO - Started process (PID=2553) to work on /opt/airflow/dags/kaggle_dataset.py
+[2024-05-24T00:18:36.647+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kaggle_dataset.py for tasks to queue
+[2024-05-24T00:18:36.652+0000] {logging_mixin.py:188} INFO - [2024-05-24T00:18:36.651+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kaggle_dataset.py
+[2024-05-24T00:18:38.007+0000] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/airflow/.kaggle/kaggle.json'
+[2024-05-24T00:18:38.395+0000] {processor.py:840} INFO - DAG(s) 'kaggle_dataset' retrieved from /opt/airflow/dags/kaggle_dataset.py
+[2024-05-24T00:18:38.444+0000] {logging_mixin.py:188} INFO - [2024-05-24T00:18:38.443+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-24T00:18:38.472+0000] {logging_mixin.py:188} INFO - [2024-05-24T00:18:38.472+0000] {dag.py:3954} INFO - Setting next_dagrun for kaggle_dataset to None, run_after=None
+[2024-05-24T00:18:38.524+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kaggle_dataset.py took 1.901 seconds
+[2024-05-24T00:19:09.381+0000] {processor.py:161} INFO - Started process (PID=2585) to work on /opt/airflow/dags/kaggle_dataset.py
+[2024-05-24T00:19:09.384+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kaggle_dataset.py for tasks to queue
+[2024-05-24T00:19:09.389+0000] {logging_mixin.py:188} INFO - [2024-05-24T00:19:09.388+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kaggle_dataset.py
+[2024-05-24T00:19:10.628+0000] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/airflow/.kaggle/kaggle.json'
+[2024-05-24T00:19:11.160+0000] {processor.py:840} INFO - DAG(s) 'kaggle_dataset' retrieved from /opt/airflow/dags/kaggle_dataset.py
+[2024-05-24T00:19:11.228+0000] {logging_mixin.py:188} INFO - [2024-05-24T00:19:11.227+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-24T00:19:11.265+0000] {logging_mixin.py:188} INFO - [2024-05-24T00:19:11.265+0000] {dag.py:3954} INFO - Setting next_dagrun for kaggle_dataset to None, run_after=None
+[2024-05-24T00:19:11.330+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kaggle_dataset.py took 1.965 seconds
+[2024-05-24T00:19:41.952+0000] {processor.py:161} INFO - Started process (PID=2618) to work on /opt/airflow/dags/kaggle_dataset.py
+[2024-05-24T00:19:41.954+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kaggle_dataset.py for tasks to queue
+[2024-05-24T00:19:41.960+0000] {logging_mixin.py:188} INFO - [2024-05-24T00:19:41.958+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kaggle_dataset.py
+[2024-05-24T00:19:43.243+0000] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/airflow/.kaggle/kaggle.json'
+[2024-05-24T00:19:43.780+0000] {processor.py:840} INFO - DAG(s) 'kaggle_dataset' retrieved from /opt/airflow/dags/kaggle_dataset.py
+[2024-05-24T00:19:43.838+0000] {logging_mixin.py:188} INFO - [2024-05-24T00:19:43.837+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-24T00:19:43.875+0000] {logging_mixin.py:188} INFO - [2024-05-24T00:19:43.874+0000] {dag.py:3954} INFO - Setting next_dagrun for kaggle_dataset to None, run_after=None
+[2024-05-24T00:19:43.935+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kaggle_dataset.py took 2.000 seconds
+[2024-05-24T00:20:14.498+0000] {processor.py:161} INFO - Started process (PID=2656) to work on /opt/airflow/dags/kaggle_dataset.py
+[2024-05-24T00:20:14.501+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kaggle_dataset.py for tasks to queue
+[2024-05-24T00:20:14.507+0000] {logging_mixin.py:188} INFO - [2024-05-24T00:20:14.506+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kaggle_dataset.py
+[2024-05-24T00:20:15.684+0000] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/airflow/.kaggle/kaggle.json'
+[2024-05-24T00:20:16.130+0000] {processor.py:840} INFO - DAG(s) 'kaggle_dataset' retrieved from /opt/airflow/dags/kaggle_dataset.py
+[2024-05-24T00:20:16.166+0000] {logging_mixin.py:188} INFO - [2024-05-24T00:20:16.166+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-24T00:20:16.190+0000] {logging_mixin.py:188} INFO - [2024-05-24T00:20:16.189+0000] {dag.py:3954} INFO - Setting next_dagrun for kaggle_dataset to None, run_after=None
+[2024-05-24T00:20:16.235+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kaggle_dataset.py took 1.751 seconds
+[2024-05-24T00:20:46.572+0000] {processor.py:161} INFO - Started process (PID=2688) to work on /opt/airflow/dags/kaggle_dataset.py
+[2024-05-24T00:20:46.574+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kaggle_dataset.py for tasks to queue
+[2024-05-24T00:20:46.578+0000] {logging_mixin.py:188} INFO - [2024-05-24T00:20:46.578+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kaggle_dataset.py
+[2024-05-24T00:20:47.529+0000] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/airflow/.kaggle/kaggle.json'
+[2024-05-24T00:20:47.923+0000] {processor.py:840} INFO - DAG(s) 'kaggle_dataset' retrieved from /opt/airflow/dags/kaggle_dataset.py
+[2024-05-24T00:20:47.977+0000] {logging_mixin.py:188} INFO - [2024-05-24T00:20:47.976+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-24T00:20:48.006+0000] {logging_mixin.py:188} INFO - [2024-05-24T00:20:48.005+0000] {dag.py:3954} INFO - Setting next_dagrun for kaggle_dataset to None, run_after=None
+[2024-05-24T00:20:48.056+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kaggle_dataset.py took 1.498 seconds
+[2024-05-24T00:21:18.441+0000] {processor.py:161} INFO - Started process (PID=2720) to work on /opt/airflow/dags/kaggle_dataset.py
+[2024-05-24T00:21:18.444+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kaggle_dataset.py for tasks to queue
+[2024-05-24T00:21:18.449+0000] {logging_mixin.py:188} INFO - [2024-05-24T00:21:18.448+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kaggle_dataset.py
+[2024-05-24T00:21:19.540+0000] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/airflow/.kaggle/kaggle.json'
+[2024-05-24T00:21:19.984+0000] {processor.py:840} INFO - DAG(s) 'kaggle_dataset' retrieved from /opt/airflow/dags/kaggle_dataset.py
+[2024-05-24T00:21:20.039+0000] {logging_mixin.py:188} INFO - [2024-05-24T00:21:20.038+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-24T00:21:20.066+0000] {logging_mixin.py:188} INFO - [2024-05-24T00:21:20.066+0000] {dag.py:3954} INFO - Setting next_dagrun for kaggle_dataset to None, run_after=None
+[2024-05-24T00:21:20.124+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kaggle_dataset.py took 1.696 seconds
+[2024-05-24T00:21:50.579+0000] {processor.py:161} INFO - Started process (PID=2752) to work on /opt/airflow/dags/kaggle_dataset.py
+[2024-05-24T00:21:50.582+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kaggle_dataset.py for tasks to queue
+[2024-05-24T00:21:50.587+0000] {logging_mixin.py:188} INFO - [2024-05-24T00:21:50.586+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kaggle_dataset.py
+[2024-05-24T00:21:51.503+0000] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/airflow/.kaggle/kaggle.json'
+[2024-05-24T00:21:51.939+0000] {processor.py:840} INFO - DAG(s) 'kaggle_dataset' retrieved from /opt/airflow/dags/kaggle_dataset.py
+[2024-05-24T00:21:52.001+0000] {logging_mixin.py:188} INFO - [2024-05-24T00:21:51.999+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-24T00:21:52.031+0000] {logging_mixin.py:188} INFO - [2024-05-24T00:21:52.030+0000] {dag.py:3954} INFO - Setting next_dagrun for kaggle_dataset to None, run_after=None
+[2024-05-24T00:21:52.086+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kaggle_dataset.py took 1.523 seconds
+[2024-05-24T00:22:22.660+0000] {processor.py:161} INFO - Started process (PID=2784) to work on /opt/airflow/dags/kaggle_dataset.py
+[2024-05-24T00:22:22.663+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kaggle_dataset.py for tasks to queue
+[2024-05-24T00:22:22.669+0000] {logging_mixin.py:188} INFO - [2024-05-24T00:22:22.668+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kaggle_dataset.py
+[2024-05-24T00:22:23.979+0000] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/airflow/.kaggle/kaggle.json'
+[2024-05-24T00:22:24.540+0000] {processor.py:840} INFO - DAG(s) 'kaggle_dataset' retrieved from /opt/airflow/dags/kaggle_dataset.py
+[2024-05-24T00:22:24.602+0000] {logging_mixin.py:188} INFO - [2024-05-24T00:22:24.600+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-24T00:22:24.645+0000] {logging_mixin.py:188} INFO - [2024-05-24T00:22:24.644+0000] {dag.py:3954} INFO - Setting next_dagrun for kaggle_dataset to None, run_after=None
+[2024-05-24T00:22:24.715+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kaggle_dataset.py took 2.074 seconds
+[2024-05-24T00:22:55.277+0000] {processor.py:161} INFO - Started process (PID=2816) to work on /opt/airflow/dags/kaggle_dataset.py
+[2024-05-24T00:22:55.279+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kaggle_dataset.py for tasks to queue
+[2024-05-24T00:22:55.284+0000] {logging_mixin.py:188} INFO - [2024-05-24T00:22:55.283+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kaggle_dataset.py
+[2024-05-24T00:22:56.472+0000] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/airflow/.kaggle/kaggle.json'
+[2024-05-24T00:22:56.918+0000] {processor.py:840} INFO - DAG(s) 'kaggle_dataset' retrieved from /opt/airflow/dags/kaggle_dataset.py
+[2024-05-24T00:22:56.969+0000] {logging_mixin.py:188} INFO - [2024-05-24T00:22:56.968+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-24T00:22:56.996+0000] {logging_mixin.py:188} INFO - [2024-05-24T00:22:56.995+0000] {dag.py:3954} INFO - Setting next_dagrun for kaggle_dataset to None, run_after=None
+[2024-05-24T00:22:57.046+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kaggle_dataset.py took 1.786 seconds
+[2024-05-24T00:23:27.452+0000] {processor.py:161} INFO - Started process (PID=2848) to work on /opt/airflow/dags/kaggle_dataset.py
+[2024-05-24T00:23:27.454+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kaggle_dataset.py for tasks to queue
+[2024-05-24T00:23:27.458+0000] {logging_mixin.py:188} INFO - [2024-05-24T00:23:27.458+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kaggle_dataset.py
+[2024-05-24T00:23:28.861+0000] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/airflow/.kaggle/kaggle.json'
+[2024-05-24T00:23:29.432+0000] {processor.py:840} INFO - DAG(s) 'kaggle_dataset' retrieved from /opt/airflow/dags/kaggle_dataset.py
+[2024-05-24T00:23:29.470+0000] {logging_mixin.py:188} INFO - [2024-05-24T00:23:29.469+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-05-24T00:23:29.503+0000] {logging_mixin.py:188} INFO - [2024-05-24T00:23:29.502+0000] {dag.py:3954} INFO - Setting next_dagrun for kaggle_dataset to None, run_after=None
+[2024-05-24T00:23:29.561+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kaggle_dataset.py took 2.122 seconds
+[2024-05-24T00:24:00.169+0000] {processor.py:161} INFO - Started process (PID=2880) to work on /opt/airflow/dags/kaggle_dataset.py
+[2024-05-24T00:24:00.173+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kaggle_dataset.py for tasks to queue
+[2024-05-24T00:24:00.194+0000] {logging_mixin.py:188} INFO - [2024-05-24T00:24:00.193+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/kaggle_dataset.py
